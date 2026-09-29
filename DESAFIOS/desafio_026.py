@@ -1,6 +1,6 @@
 #fazer um programa que mostre as posições da letra 'a'
 
-frase = input('digite uma frase: ')
-print(frase.count('a'))
-print(frase.find('a'[0]))
-print(frase.rfind('a'))
+frase = str((input('digite uma frase: '))).upper()
+print(frase.count('A'))
+print(frase.find('A') + 1)
+print(frase.rfind('A') + 1)
