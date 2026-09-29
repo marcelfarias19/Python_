@@ -7,6 +7,6 @@ primeiro_nome = nome.split()[0]
 print(len(primeiro_nome))
 
 separado = nome.split()
-print('o primeiro nome é {} {} '.format(separado[0]))
+print('o primeiro nome é {} '.format(separado[0]))
 print('o segundo nome é {} '.format(separado[1]))
 
