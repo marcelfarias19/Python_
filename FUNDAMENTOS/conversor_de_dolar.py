@@ -1,8 +1,8 @@
 #Quanto vale seu dia
 
 horas = float(input('digite quantas horas você trabalhou: '))
-valor = horas * 30
-print('O valor do seu dia foi de $ {:.2f}'.format(valor))
+valor = horas * 60
+print('O valor das suas horas trabalhadas foi de $ {:.2f}'.format(valor))
 
 #conversor de dolar para real
 
