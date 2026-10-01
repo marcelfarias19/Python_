@@ -8,7 +8,7 @@ if alistar < 18:
     print('falta {} anos para seu alistamento.'.format(sold))
 elif alistar == 18:
     print('É hora de se alistar.')
-else:
+elif alistar > 18:
     sold = alistar - 18
     print('Seu prazo para se alistar já passou {} anos.'.format(sold))
 
