@@ -1,11 +1,12 @@
 import random
 from time import sleep
 computador = random.randint(0, 2)
-jogador = int(input(''''--Jokempô--
+print(''''--Jokempô--
 escolha entre as opções.
 [0] Pedra
 [1] Papel
-[2] tesoura'''))
+[2] tesoura''')
+jogador = int(input('digite opção: '))
 
 print('Jo')
 sleep(1)
