@@ -8,12 +8,12 @@ escolha entre as opções.
 [2] tesoura''')
 jogador = int(input('digite opção: '))
 
+sleep(1)
 print('Jo')
 sleep(1)
 print('kem')
 sleep(1)
 print('pô')
-sleep(1)
 
 print('O jogador escolheu {}'.format(jogador))
 print('O computador escolheu {}'.format(computador))

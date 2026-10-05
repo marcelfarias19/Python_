@@ -1,7 +1,8 @@
 #valor de produto
 
 produto = float(input('Digite o valor do produto R$: '))
-pagamento = int(input('--Forma de pagamento-- \n [1] á vista dinheiro / cheque : 10% Desconto. \n [2] á vista no cartão : 5% De desconto. \n [3] em até 2 vezes no cartão preço normal. \n [4] Em 3 vezes no cartão: 20% De juros.  '))
+print('--Forma de pagamento-- \n [1] á vista dinheiro / cheque : 10% Desconto. \n [2] á vista no cartão : 5% De desconto. \n [3] em até 2 vezes no cartão preço normal. \n [4] Em 3 vezes no cartão: 20% De juros.  ')
+pagamento = int(input('Digite aqui sua opção: '))
 
 if pagamento == 1:
     resultado = produto * 0.90
