@@ -11,4 +11,6 @@ if fra == fra[::-1]:
     print('é um palíndromo')
 else:
     print('Não é um palíndromo')
+    
+print('------------------------------------')
 
