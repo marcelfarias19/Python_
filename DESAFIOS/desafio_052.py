@@ -13,25 +13,8 @@ print('-------------------')
 if primo > 2 :
     print('{} não é um número primo.'.format(p1))
 else:
-    print('{} é um número primo.'.format(p1))
+    print('{} é um número primo.'.format(p1))   
+   
+           
+  
        
-
-
-
-       
-
-      
-            
-            
-        
-
- 
-
-
-        
-        
-    
-
-
-    
-     
