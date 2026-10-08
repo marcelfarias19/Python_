@@ -1,5 +1,5 @@
-#programa que lê nome,idade,sexo de 4 pessoas.
-#mostre média de idade / Qual o nome do homem mais velho / quantas mulheres tem menos de 20 anos.
+# programa que lê nome,idade,sexo de 4 pessoas.
+# mostre média de idade / Qual o nome do homem mais velho / quantas mulheres tem menos de 20 anos.
 
 print('-----------------------')
 print('--LEITOR DE PESSOAS--')
