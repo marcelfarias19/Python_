@@ -29,5 +29,5 @@ for cont in range(1, 4+1):
     
 print('A média da idade das pessoas é de {}'.format(mediaidade))
 print('Qual o nome do homem mais velho: {}'.format(homem_mais_velho))
-print('Quantas mulheres tem menos de 20 anos: {}'.format(mulhermaior))
+print('Quantas mulheres tem mais de 20 anos: {}'.format(mulhermaior))
     
