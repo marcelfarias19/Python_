@@ -12,7 +12,7 @@ for cont in range(1, 5 + 1):
     elif peso < menorpeso:
         menorpeso = peso
         
-print('{}kg é o maior peso.'.format(maiorpeso))
-print('{}kg é o menor peso.'.format(menorpeso))
+print('{} kg é o maior peso.'.format(maiorpeso))
+print('{} kg é o menor peso.'.format(menorpeso))
         
 
