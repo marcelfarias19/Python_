@@ -12,19 +12,19 @@ homem_mais_idade = 0
 mulhermaior = 0
 
 for cont in range(1, 4+1):
-    nome = str(input('{}° Digite seu nome: '.format(cont)))
+    nome = str(input('{}° Digite seu nome: '.format(cont))).strip().upper()
     idade = int(input('{}° Digite sua idade: '.format(cont)))
-    sexo = str(input('{}° Digite seu sexo [M / F]: '.format(cont))).upper()
+    sexo = str(input('{}° Digite seu sexo [M / F]: '.format(cont))).strip().upper()
     print('--------------------------------------')
     
     somaidade += idade
     mediaidade = somaidade / 4
     
-    if idade > homem_mais_idade:
+    if idade > homem_mais_idade and sexo == 'M':
         homem_mais_idade = idade
         homem_mais_velho = nome
         
-    if sexo == 'F' and idade > 20:
+    if sexo == 'F' and idade < 20:
         mulhermaior += 1   
     
 print('A média da idade das pessoas é de {:.2f}'.format(mediaidade))
