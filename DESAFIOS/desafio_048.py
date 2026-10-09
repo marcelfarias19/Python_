@@ -1,8 +1,10 @@
 #Somadores de números primos
 
-s = 0 
-for cont in range(1, 500):
+soma = 0
+contador = 0 
+for cont in range(1, 501, 2):
     if cont % 3 == 0:
-        s += cont
+        soma = soma + cont
+        contador = contador + 1
          
-print('A soma dos números ímpares que são multiplos de 3 entre 1 a 500 é {}'.format(s))
+print('A soma de todos os valores {} solicitados é {}'.format(contador, soma))
