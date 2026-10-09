@@ -27,7 +27,7 @@ for cont in range(1, 4+1):
     if sexo == 'F' and idade > 20:
         mulhermaior += 1   
     
-print('A média da idade das pessoas é de {}'.format(mediaidade))
+print('A média da idade das pessoas é de {:.2f}'.format(mediaidade))
 print('Qual o nome do homem mais velho: {}'.format(homem_mais_velho))
 print('Quantas mulheres tem mais de 20 anos: {}'.format(mulhermaior))
     
