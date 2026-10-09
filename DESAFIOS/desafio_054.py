@@ -2,7 +2,7 @@
 # e mostrar quantas atingiram a maior idade.
 
 print('-----------------------------')
-print('-- Contador de Idade')
+print('-- Contador de Idade --')
 print('-----------------------------')
 
 menoridade = 0 
