@@ -4,13 +4,17 @@ print('-- DESCOBRINDO NÚMEROS PRIMOS --')
 p1 = int(input('Digite um valor: '))
 
 primo = 0
+contprimo = 0
 for cont in range(1, p1):
-    if p1 % cont == 0 and p1 % p1 == 0:
-       primo += cont
+    if p1 % cont == 0 :
+        primo += cont
+        contprimo = contprimo + 1 
 
 print('-------------------')
-       
-if primo > 2 :
+
+print('O número {} foi divisivel {} vezes.'.format(p1, contprimo))    
+   
+if primo >= 3 :
     print('{} não é um número primo.'.format(p1))
 else:
     print('{} é um número primo.'.format(p1))   
