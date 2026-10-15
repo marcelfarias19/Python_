@@ -12,10 +12,18 @@ while resp == 'S':
     
     resp = str(input('deseja continuar [S / N]: ')).upper()'''
     
-sexo = str(input('Digite seu sexo: [M/F] ')).upper().strip()[0]   
+'''sexo = str(input('Digite seu sexo: [M/F] ')).upper().strip()[0]   
 while sexo not in 'M, F':
-    sexo = str(input('dados inválidos')).strip().upper()[0]
-print('Sexo {} registrado com sucesso'.format(sexo))
+    sexo = str(input('error: dados inválidos. ')).strip().upper()[0]
+print('Sexo {} registrado com sucesso'.format(sexo))'''
+
+sexo = input('Digite o sexo [M/F]: ').strip().upper()
+
+while sexo not in ('M', 'F'):
+    print('Erro: dados inválidos!')
+    sexo = input('Digite o sexo [M/F]: ').strip().upper()
+
+print(f'Sexo {sexo} registrado com sucesso.')
 
 
 
