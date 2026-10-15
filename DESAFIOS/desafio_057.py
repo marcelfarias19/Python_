@@ -23,7 +23,7 @@ while sexo not in ('M', 'F'):
     print('Erro: dados inválidos!')
     sexo = input('Digite o sexo [M/F]: ').strip().upper()
 
-print(f'Sexo {sexo} registrado com sucesso.')
+print('Sexo {} registrado com sucesso.'.format(sexo))
 
 
 
