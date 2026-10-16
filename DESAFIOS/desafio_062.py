@@ -31,5 +31,6 @@ while n != 0:
         cont = cont + 1
 
     n = int(input('Deseja mostrar mais quantos termos? (0 para encerrar): '))
-
+    
+print()
 print('Fim da execução!')
