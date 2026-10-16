@@ -20,3 +20,5 @@ while True:       #importante aprender usar todos os operadores lógicos
 print()
 print('{} números foram digitados'.format(num_digitados))
 print('A soma de {} números digitados é {}'.format(num_digitados, soma_num))
+print()
+print('Fim da execução')
