@@ -20,7 +20,7 @@ while cont <= 10 :
     
 print()
 
-n = int(input('deseja mostrar mais quantos termos? (lembrando que 0 encerra!): '))    
+n = int(input('Deseja mostrar mais quantos termos? (lembrando que 0 encerra!): '))    
 
 while n != 0:
     cont = 1
