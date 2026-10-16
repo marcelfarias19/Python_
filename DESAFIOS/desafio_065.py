@@ -22,8 +22,7 @@ while True:
     elif num > maior_valor:
             maior_valor = num
         
-    resp = str(input('Deseja continuar [S/N]: ')).upper().strip()
-        
+    resp = str(input('Deseja continuar [S/N]: ')).upper().strip()        
     if resp == 'N':
         break
     
