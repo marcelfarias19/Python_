@@ -7,11 +7,11 @@ print()
 
 num_digitados = 0
 soma_num = 0
-while True:       #importante aprender usar todos os operadores lógicos
+while True:       # importante aprender usar todos os operadores lógicos
  
     num = int(input('Digite números inteiros: ')) 
     if num == 999:
-        break
+        break         # O break aqui quebra o laço mas nao computa o ultimo num inteiro a soma
         
     num_digitados = num_digitados + 1  
     soma_num += num  
