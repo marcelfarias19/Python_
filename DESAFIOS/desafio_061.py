@@ -12,3 +12,5 @@ while cont <= 10:
     
     cont = cont + 1
     print(c3)
+
+print('Fim da execução')

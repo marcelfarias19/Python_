@@ -9,7 +9,7 @@ while cont <= num1:
     fat = fat * cont    
     
     cont = cont + 1
-    print(fat)
+    print('{} '.format(fat), end=' ')
    
 print()
 print('O fatorial de {} é {}!'.format(num1, fat))

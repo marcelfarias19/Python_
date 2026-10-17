@@ -3,34 +3,20 @@ print()
 print('--Progressão aritmética--')
 print()  
 
-c1 = int(input('Digite o valor do primeiro termo aritmético: '))
-c2 = int(input('Digite o valor da razão aritmética: '))
+primeiro = int(input('Digite o valor do primeiro termo aritmético: ')) 
+razao = int(input('Digite o valor da razão aritmética: '))
+termo = primeiro
 print()
-
-c3 = 0
 cont = 1
-    
-while cont <= 10 :    
-    
-    print(c1)
-    c3 = c1 + c2
-    c1 = c3       
-    cont = cont + 1
-    print(c3)   
-    
-print()
-
-n = int(input('Deseja mostrar mais quantos termos? (lembrando que 0 encerra!): '))    
-
-while n != 0:
-    cont = 1
-    
-    while cont <= n:
-        print(c1)
-        c1 = c1 + c2
+total = 0
+mais = 10
+while mais != 0:                                 # fazer mais exercícios como esse 062
+    total = total + mais
+    while cont <= total:
+        print('{} '.format(termo), end='')
+        termo = termo + razao
         cont = cont + 1
-
-    n = int(input('Deseja mostrar mais quantos termos? (0 para encerrar): '))
-    
-print()
-print('Fim da execução!')
+    print('PAUSA')
+    mais = int(input('Quantos termos você quer mostrar a mais? '))
+print()    
+print('Progressão finalizada com {} termos mostrados'.format(total))
