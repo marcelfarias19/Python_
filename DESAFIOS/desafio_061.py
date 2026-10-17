@@ -11,6 +11,6 @@ while cont <= 10:
     c1 = c3
     
     cont = cont + 1
-    print(c3)
+    print('{} '.format(c3), end=' ')
 
 print('Fim da execução')
