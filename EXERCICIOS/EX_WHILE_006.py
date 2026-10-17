@@ -15,7 +15,7 @@ while mais != 0:
     tot = tot + mais  
     while cont <= tot:      
         print('dia {}: {} peças  '.format(cont, pd3))
-        pd3 = pd3 + pd1          
+        pd3 = pd3 + pd2          
         cont = cont + 1
         
     print('PAUSA')

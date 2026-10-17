@@ -11,7 +11,7 @@ while mais != 0:
     tot = tot + mais  
     while cont <= tot:
         print('{} km'.format(km3), end=' ')
-        km3 = km3 + km1          
+        km3 = km3 + km2          
         cont = cont + 1
     print('pausa')
     mais = int(input('Quantos treinos a mais o atleta deseja visualizar: '))

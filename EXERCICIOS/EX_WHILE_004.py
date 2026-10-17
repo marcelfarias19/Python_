@@ -11,7 +11,7 @@ while mais != 0:
     tot = tot + mais  
     while cont <= tot  :
         print('{} '.format(c3), end=' ')
-        c3 = c3 + c1            
+        c3 = c3 + c2            
         cont = cont + 1
        
     print('PAUSA')
