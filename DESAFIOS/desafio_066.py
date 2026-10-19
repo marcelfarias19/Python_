@@ -11,4 +11,4 @@ while True:
         break
 
 print()
-print(f'Foram digitados {cont} números e o total da soma é {soma}')
+print(f'Foram digitados {cont} números e o total da soma é {soma}') 
