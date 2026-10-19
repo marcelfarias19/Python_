@@ -13,7 +13,7 @@ while cont <= n:
     f1 = f2
     f2 = f3
        
-    print('{} '.format(f3), end=' ')    
+    print('{}'.format(f3), end=' ')    
     cont = cont + 1
 print()
 print('Fim da execução')
