@@ -31,7 +31,7 @@ while True:
     cont = cont + 1 
 
 print()
-print('A média dos valores é {:.2f}'.format(media_valor))
+print('A média dos valores é {:.2f}'.format(media_valor)) 
 print('O maior Valor é {}'.format(maior_valor))
 print('O menor valor é {}'.format(menor_valor))
 print()
