@@ -13,4 +13,5 @@ while True:
     if n == 999:
         break
     soma += n
-print('A soma vale {}'.format(soma))
+#print('A soma vale {}'.format(soma))
+print(f'A soma vale {soma}')
