@@ -5,15 +5,15 @@ while True:
     print('--PROGRAMA DE TABUADA--')
     print('=-'*15)
        
-    tab = int(input('Quer ver a tabuada de qual valor: '))    
-    for  cont in range(1, 11):       
-        result = tab * cont
-        print(f'{tab} x {cont} = {result}')
-        cont = cont + 1    
-        
+    tab = int(input('Quer ver a tabuada de qual valor: '))
     if tab < 0:
         break
+        
+    for  cont in range(1, 11):       
+        result = tab * cont
+        print(f'{tab} x {cont} = {result}') 
     
 print()
-print('fim da execução!')
+print('Programa tabuada encerrada! Volte sempre')
+
         
