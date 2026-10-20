@@ -2,7 +2,7 @@
 
 while True:
     print('=-'*20)
-    print('== BANCO MARSHALLS ==')
+    print('== BANCO MARSHALLS =='.center(40))
     print('=-'*20)
 
     valor = int(input('Que valor você deseja sacar: R$  '))
