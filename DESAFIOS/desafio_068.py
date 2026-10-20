@@ -17,13 +17,11 @@ while True:
     if result % 2 == 0 and game == 'P':
         print(f'{result} é Par você ganhou')
         print('Vamos jogar novamente')        
-        vit = vit + 1
-        
+        vit = vit + 1        
     elif result % 2 == 1 and game == 'I': 
         print(f'{result} é ímpar você ganhou')
         print('Vamos jogar novamente')
-        vit = vit + 1
-     
+        vit = vit + 1     
     else:        
         print('VOCÊ PERDEU!')
         print(F'Game Over! Você venceu {vit}!')
