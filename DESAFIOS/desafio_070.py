@@ -30,6 +30,6 @@ while True:
         break
 
 print()
-print(f'Qual é o total gasto nas compras: {total_gastos:.2f}')
+print(f'Qual é o total gasto nas compras: {total_gastos:.2f} R$')
 print(f'Quantos produtos custam mais de 1000 reais: {produtos_mais}')
 print(f'Qual é o nome do produto mais barato: {produto_mais_barato}')
