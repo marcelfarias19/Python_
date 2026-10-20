@@ -6,7 +6,7 @@ mulheres_20 = 0
 
 while True:
     print('=-'*15)
-    print('--CADASTRO DE PESSOAS--')
+    print('-- CADASTRO DE PESSOAS --'.center(40))
     print('=-'*15)
     
     idade = int(input('idade: '))

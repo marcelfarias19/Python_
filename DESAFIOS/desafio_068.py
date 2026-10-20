@@ -5,7 +5,7 @@ computador = randint(1, 100)
 vit = 0
 while True:
     print('=-'*15)
-    print('--JOGO DE PAR OU ÍMPAR--')
+    print('-- JOGO DE PAR OU ÍMPAR --'.center(40))
     print('=-'*15)
     
     jogador = int(input('Diga um valor: '))

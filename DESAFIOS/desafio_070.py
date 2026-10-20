@@ -7,7 +7,7 @@ mais_barato = 0
 cont = 1
 while True:
     print('=-'*15)
-    print('--CADASTRO DE PRODUTOS--')
+    print('-- CADASTRO DE PRODUTOS --'.center(40))
     print('=-'*15)
     
     produto = str(input('Digite o nome do produto: ')).upper().strip()
