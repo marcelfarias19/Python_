@@ -2,7 +2,7 @@
 
 while True: 
     print('=-'*15)
-    print('--PROGRAMA DE TABUADA--'.center(40))
+    print('--PROGRAMA DE TABUADA--'.center(30))
     print('=-'*15)
        
     tab = int(input('Quer ver a tabuada de qual valor: '))

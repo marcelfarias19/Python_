@@ -1,6 +1,6 @@
 #crie um programa que leia vários números no final da execução mostrar a média deles
 print('=-'*15)
-print('--LEITURA DE NÚMEROS--'.center(40))
+print('--LEITURA DE NÚMEROS--'.center(30))
 print('=-'*15)
 
 somador_num = 0
