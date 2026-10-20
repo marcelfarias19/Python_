@@ -1,9 +1,8 @@
 # Jogo de par ou ímpar.
 
 from random import randint
-computador = randint(1, 10)
-par = 0
-impar = 0
+computador = randint(1, 100)
+vit = 0
 while True:
     print('=-'*15)
     print('--JOGO DE PAR OU ÍMPAR--')
@@ -16,16 +15,19 @@ while True:
     print(f'Você jogou {jogador} o computador jogou {computador}.Total de {result}')
         
     if result % 2 == 0 and game == 'P':
-        print(f'{result} é Par')
-        print(f'Game over! Você venceu {par} vezes')
-        par = par + 1
-        break
+        print(f'{result} é Par você ganhou')
+        print('Vamos jogar novamente')        
+        vit = vit + 1
+        
     elif result % 2 == 1 and game == 'I': 
-        print(f'{result} é ímpar')
-        print(f'Game over! Você venceu {impar} vezes')
-        impar = impar + 1
+        print(f'{result} é ímpar você ganhou')
+        print('Vamos jogar novamente')
+        vit = vit + 1
+     
+    else:        
+        print('VOCÊ PERDEU!')
+        print(F'Game Over! Você venceu {vit}!')
         break
-    else:
-        print('Você Perdeu!')    
+          
    
 
