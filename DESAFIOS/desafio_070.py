@@ -29,8 +29,9 @@ while True:
     if resp == 'N':
         break
 
-print()
-print('FIM DO PROGRAMA!')
+print('-='*20)
+print('--FIM DO PROGRAMA!--'.center(40))
+print('-='*20)
 print(f'Qual é o total gasto nas compras: {total_gastos:.2f} R$')
 print(f'Quantos produtos custam mais de 1000 reais: {produtos_mais}')
 print(f'Qual é o nome do produto mais barato: {produto_mais_barato}')
