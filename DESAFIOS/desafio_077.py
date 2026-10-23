@@ -17,7 +17,7 @@ tupla = (
 # não esquecer do end=' ' para não haver a quebra de linha / treinar mais isso
 
 for palavra in tupla:
-    print(f'Na palavra {palavra} temos: ', end=' ')    
+    print(f'Na palavra {palavra.upper()} temos: ', end=' ')     
     for vogal in palavra:
         if vogal in 'AEIOUaeiou':            
             print(f'{vogal}', end=' ' )
