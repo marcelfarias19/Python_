@@ -14,7 +14,7 @@ for cont in range(0, 5):
                 lista.insert(pos, n) # em vez de usar o .append() para inserir você usa o .insert() porque ele inseri entre as posições 
                 print(f'Adicionado na posição {pos}')   
                 break # depois break para quebrar o laço.
-            pos += 1 # esse pos é a variável de controle para o laço não ser infinito.
+            pos += 1  # esse pos é a variável de controle para o laço não ser infinito e passara próxima posição.
 print('-='*20)
 print(f'Os valores digitados em ordem foram {lista}')
         
