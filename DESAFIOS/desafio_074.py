@@ -1,4 +1,4 @@
-# criar um programa que vai gerar números e depoois colocar uma tupla.
+# criar um programa que vai gerar números e depois colocar uma tupla.
 
 from random import randint
 
