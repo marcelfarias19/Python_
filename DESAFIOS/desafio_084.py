@@ -31,15 +31,15 @@ while True:
         break
            
 print('-='*20)
-print(f'Ao você cadastrou {quantidade} pessoas')
+print(f'você cadastrou {quantidade} pessoas')
 print(f'O maior peso foi {maior:.2f} de ', end=' ')
 for p in lista:
     if p[1] == maior:
-        print(f'{p[0]}')
+        print(f'da pessoa {p[0]}')
 print()
 print(f'O menor peso foi {menor:.2f} de ', end=' ')
 for p in lista:
     if p[1] == menor:
-        print(f'{p[0]}', end=' ')
+        print(f'da pessoa{p[0]}', end=' ')
 print()
     
