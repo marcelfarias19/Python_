@@ -40,6 +40,6 @@ print()
 print(f'O menor peso foi {menor:.2f} de ', end=' ')
 for p in lista:
     if p[1] == menor:
-        print(f'da pessoa{p[0]}', end=' ')
+        print(f'da pessoa {p[0]}', end=' ')
 print()
     
