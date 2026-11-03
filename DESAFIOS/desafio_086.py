@@ -6,7 +6,9 @@ for l in range(0, 3):
     lista = [] 
     for c in range(0, 3):
         lista.append(int(input(f'digite um valor para {l, c}')))                
-    matriz.append(lista)        
+    matriz.append(lista)  
+    
+print('-='*20)      
         
 for l in range(0, 3):
     for c in range(0, 3):
