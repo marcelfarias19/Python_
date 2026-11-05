@@ -26,5 +26,9 @@ while cont <= n:
         print(f'[{lista}]', end=' ')
     print()    
     cont = cont + 1
+    
+print('-='*30)
+sleep(0.8)
+print('FINALIZADO!')
         
     
