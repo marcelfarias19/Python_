@@ -8,19 +8,19 @@ for c in range(1, 5):
     sleep(0.6)  
     dado = randint(1, 100)    
     print(f'O jogador {c} tirou {dado}')
-    jogador[c] = dado
-    
+    jogador[c] = dado    
 pont = 0
 ind = 0
 classificados = []
 cont = 1
-print('Ranking dos jogadores')
+print()
+print('Ranking dos jogadores:')
 while cont <= len(jogador):
-    pont = 0    
+    pont = 0            
     for i, v in jogador.items():       
         if i not in classificados and v > pont:
             pont = v
-            ind = i
-            classificados.append((i, v))
-    print(f'{cont} {i} {v}')
+            ind = i     
+    classificados.append((ind, pont))  
+    print(f'{cont} {ind} {pont}')        
     cont = cont + 1   
