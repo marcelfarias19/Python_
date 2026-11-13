@@ -4,7 +4,7 @@ dados = {}
 aluno = []
 dados['nome'] = str(input('Nome: '))
 dados['média'] = float(input('média: '))
-aluno.append(dados.copy())
+aluno.append(dados.copy())                # nesse exercício eu poderia ter usado o dados direto em vez de criar uma lista.
 
 for c in aluno:
     for a, b in c.items():
