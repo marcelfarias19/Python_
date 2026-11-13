@@ -9,12 +9,13 @@ for c in range(1, 5):
     dado = randint(1, 100)    
     print(f'O jogador {c} tirou {dado}')
     jogador[c] = dado    
-pont = 0
-ind = 0
-classificados = []
-cont = 1
+
 print()
 print('Ranking dos jogadores:')
+pont = 0
+ind = 0 
+classificados = []
+cont = 1
 while cont <= len(jogador):
     pont = 0            
     for i, v in jogador.items():       
