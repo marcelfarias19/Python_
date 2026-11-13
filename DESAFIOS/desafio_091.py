@@ -2,26 +2,22 @@
 
 from random import randint
 from time import sleep 
+from operator import itemgetter
 jogador = {}
-print('Valores sorteados:')
+print('VALORES SORTEADOS:')
 for c in range(1, 5):           
     sleep(0.6)  
     dado = randint(1, 100)    
-    print(f'O jogador {c} tirou {dado}')
+    print(f'   O jogador {c} tirou {dado}')
     jogador[c] = dado    
-
 print()
-print('Ranking dos jogadores:')
-pont = 0
-ind = 0 
-classificados = []
-cont = 1
-while cont <= len(jogador):
-    pont = 0            
-    for i, v in jogador.items():       
-        if i not in classificados and v > pont:
-            pont = v
-            ind = i     
-    classificados.append((ind, pont))  
-    print(f'{cont} {ind} {pont}')        
-    cont = cont + 1   
+
+ranking = list()
+ranking = sorted(jogador.items(), key=itemgetter(1), reverse=True)
+print('RANKING DOS JOGADORES')
+for i, v in enumerate(ranking):
+    sleep(0.6)
+    print(f'   {i+1}° lugar: {v[0]} com {v[1]}')
+   
+
+ 
