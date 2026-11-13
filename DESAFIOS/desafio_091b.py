@@ -13,7 +13,7 @@ for k, v in jogo.items():
     print(f'{k} tirou {v} no dado')
     sleep(0.8)
 print()
-ranking = list
+ranking = list()
 ranking = sorted(jogo.items(), key=itemgetter(1), reverse=True)  # comando exencial para esse Exercício  
 print('Ranking dos jogadores')
 print()
