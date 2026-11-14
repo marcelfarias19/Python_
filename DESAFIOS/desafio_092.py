@@ -9,6 +9,7 @@ while dados['carteira de trabalho'] != 0:
     dados['salário'] = float(input('Salário: '))
     aposentadoria = (dados['ano de contratação'] - dados['ano de nascimento'] + 35)
     dados['aposentadoria'] = aposentadoria
+    print('-=' * 30)
     print(dados)
     for k, v in dados.items():
         print(f'{k} tem o valor {v}')       
