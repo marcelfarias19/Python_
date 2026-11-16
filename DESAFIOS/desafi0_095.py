@@ -4,6 +4,7 @@ resp = 'N'
 n = 0
 gols = []
 total = 0
+lista = []
 while True:
     jogador['nome'] = str(input('Nome do jogador: '))  
     n = int(input(f'Quantas partidas o jogador {jogador["nome"]} jogou? ')) 
@@ -13,7 +14,26 @@ while True:
     for gol in gols:
         total += gol   
     jogador['total'] = total
+    lista.append(jogador.copy())
     resp = str(input('você deseja continuar? [S/N]')).upper().strip()
-    print('-='*40)
+    print('-='*30)
     if resp == 'N':
         break
+print('COD NOME:           GOLS:           TOTAL:')
+for i, v in enumerate(lista):
+    print(f' {i:<2} {v["nome"]:<14} {v["gols"]}            {v["total"]}')
+print('-='*30)
+cont = 0
+while cont != 999:
+    cont = int(input('Mostrar dados de qual jogador? (999 o programa para)'))
+    for i, c in enumerate(lista): 
+        if cont == i:
+            print(f'-- LEVENTAMENTO DO JOGADOR {c["nome"]}')
+            for i, g in enumerate(c["gols"]):
+                print(f'No jogo {i} fez {g} gols.')            
+        else:
+            print(f'ERROR! não existe jogador com o código {i}! tente novamente ')
+print('')
+print('>> ENCERRADO <<')
+            
+    
