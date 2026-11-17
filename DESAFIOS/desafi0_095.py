@@ -2,15 +2,15 @@
 jogador = {}
 resp = 'N'
 n = 0
-gols = []
-total = 0
 lista = []
 while True:
     jogador['nome'] = str(input('Nome do jogador: '))  
     n = int(input(f'Quantas partidas o jogador {jogador["nome"]} jogou? ')) 
+    gols = []
     for c in range(n):
         gols.append(int(input(f'Quantos gols na partida {c}: ')))
     jogador['gols'] = gols
+    total = 0
     for gol in gols:
         total += gol   
     jogador['total'] = total
@@ -30,9 +30,7 @@ while cont != 999:
         if cont == i:
             print(f'-- LEVENTAMENTO DO JOGADOR {c["nome"]}')
             for i, g in enumerate(c["gols"]):
-                print(f'No jogo {i} fez {g} gols.')            
-        else:
-            print(f'ERROR! não existe jogador com o código {i}! tente novamente ')
+                print(f'No jogo {i} fez {g} gols.')          
 print('')
 print('>> ENCERRADO <<')
             
