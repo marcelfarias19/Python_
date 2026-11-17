@@ -21,7 +21,7 @@ while True:
         break
 print('COD NOME:           GOLS:           TOTAL:')
 for i, v in enumerate(lista):
-    print(f' {i:<2} {v["nome"]:<14} {v["gols"]}            {v["total"]}')
+    print(f' {i:<2} {v["nome"]:<14} {str(v["gols"]):<18} {v["total"]}')
 print('-='*30)
 cont = 0
 while cont != 999:
