@@ -15,7 +15,13 @@ acima_media = []
 while True:
     pessoas['nome'] = str(input('Nome: '))
     pessoas['idade'] = int(input('idade: '))
-    pessoas['sexo'] = str(input('Sexo: [M/F]')).upper().strip()
+    while True:
+        pessoas['sexo'] = str(input('Sexo: [M/F]')).upper().strip()
+        if pessoas['sexo'] in 'MF':
+            break
+        else:
+            print('ERROR: Por favor, digite apenas M ou F')
+            
     lista.append(pessoas.copy())
     
     p_cadastro += 1
