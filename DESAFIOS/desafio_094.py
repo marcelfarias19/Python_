@@ -33,6 +33,11 @@ while True:
             m_cadastro.append(pessoas['nome'])                    
                         
     resp = str(input('Você deseja continuar: [S/N]')).upper().strip()
+    while True:
+        if resp in 'SN':
+            break
+        else:
+            print('ERROR: digite apenas S ou N.')
     if resp == 'N':
         break
     
